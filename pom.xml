@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.5</version>
+		<version>3.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.kalil.alves</groupId>
-	<artifactId>springtopicos</artifactId>
+	<groupId>br.gov.sp.fatec</groupId>
+	<artifactId>springtopicos20252</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springtopicos</name>
-	<description>Demo project for Spring Boot</description>
+	<name>springtopicos20252</name>
+	<description>Projeto didático</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -46,8 +46,8 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.mysql</groupId>
-			<artifactId>mysql-connector-j</artifactId>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
