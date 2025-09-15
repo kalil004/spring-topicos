@@ -1,13 +1,13 @@
-package br.gov.sp.fatec.springtopicos20252;
+package com.kalil.alves.springtopicos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Springtopicos20252Application {
+public class SpringtopicosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Springtopicos20252Application.class, args);
+		SpringApplication.run(SpringtopicosApplication.class, args);
 	}
 
 }
